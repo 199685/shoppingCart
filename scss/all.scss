@@ -1,0 +1,87 @@
+.btn {
+    position: relative;
+
+    .badge-setting {
+        position: absolute;
+        left: --18px;
+        top: -2px;
+    }
+}
+
+.dropdown-menu {
+    left: auto;
+    right: 0;
+    min-width: 360px;
+}
+
+.fa-trash-alt {
+    cursor: pointer;
+}
+
+.table {
+    .noborder {
+        border-top-width: 0px;
+    }
+
+}
+
+.jumbotron {
+    background: url('https://images.unsplash.com/photo-1477901492169-d59e6428fc90?w=1350') center center;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.bg-newWhite {
+    background: rgba(255, 255, 255, .35)
+}
+
+.card-shadow {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .16);
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .26);
+    }
+}
+
+p {
+    font-size: 16px;
+}
+
+.footer {
+    li {
+        list-style-type: none;
+    }
+}
+
+.input-width {
+    max-width: 274px;
+}
+
+.btn {
+    border-width: 2px;
+}
+
+
+.input-group-sm>.form-control:not(textarea) {
+    height: auto;
+
+}
+
+.alert-radius {
+    border-radius: 50px;
+}
+
+.accordion .btn:focus {
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.table-sm td {
+    vertical-align: middle;
+
+}
+
+.card {
+    border-width: 0;
+}
